@@ -1,8 +1,8 @@
-package com.company.Taxes;
+package com.company.Taxes.TaxesJuridicalPerson;
 
-import javax.swing.*;
+import com.company.Taxes.Tax;
 
-public class IncomeTax implements Tax {
+public class IncomeTaxofJuridicalPerson implements Tax {
     double CleanIncome;
     double Persentage = 18;
 
@@ -12,7 +12,7 @@ public class IncomeTax implements Tax {
     }
 
 
-    public IncomeTax(double Income, ValueAddedTax vat, ExciseTax et, double PrimeCost) {
+    public IncomeTaxofJuridicalPerson(double Income, ValueAddedTax vat, ExciseTax et, double PrimeCost) {
         CleanIncome = Income - vat.calculateTax() - et.calculateTax() - PrimeCost;
     }
 }

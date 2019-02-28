@@ -1,10 +1,12 @@
-package com.company.Taxes;
+package com.company.Taxes.TaxesJuridicalPerson;
+
+import com.company.Taxes.Tax;
 
 import java.text.DecimalFormat;
 
 public class ValueAddedTax implements Tax {
     double Income;
-    double Persentage=20;
+    double Persentage = 20;
 
     public double calculateTax() {
         double tax = Income / (1.2) * (Persentage / 100);
