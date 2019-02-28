@@ -13,4 +13,6 @@ public abstract class Tax {
         isPaid = false;
     }
 
+    public boolean GetPaid (){ return isPaid; }
+
 }
