@@ -1,0 +1,17 @@
+package com.company.Taxes.TaxesJuridicalPerson;
+import com.company.Taxes.Tax;
+
+public class RealEstateTax implements Tax {
+    double Square;
+    double MinSalary = 4173;
+    double Persentage =1;
+
+    public double calculateTax() {
+        double tax = MinSalary*(Persentage/100)*Square/12;
+        return Math.round(tax * 100.0) / 100.0;
+    }
+
+    public RealEstateTax(double square){
+        Square=square;
+    }
+}

@@ -1,0 +1,17 @@
+package com.company.Taxes.TaxesJuridicalPerson;
+
+import com.company.Taxes.Tax;
+
+public class TouristTax implements Tax {
+    int NumberofTourists;
+    double rate = 40;
+
+    public double calculateTax() {
+        double tax = NumberofTourists*rate;
+        return Math.round(tax * 100.0) / 100.0;
+    }
+
+    public TouristTax(int numberofTourists){
+        NumberofTourists=numberofTourists;
+    }
+}
