@@ -2,7 +2,7 @@ package com.company.Taxes.TaxesJuridicalPerson;
 
 import com.company.Taxes.Tax;
 
-public class IncomeTaxofNaturalPersons implements Tax {
+public class IncomeTaxofNaturalPersons extends Tax {
     double Income;
     double Persentage = 18;
 

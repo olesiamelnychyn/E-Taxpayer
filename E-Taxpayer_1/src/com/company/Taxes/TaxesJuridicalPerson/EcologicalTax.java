@@ -2,7 +2,7 @@ package com.company.Taxes.TaxesJuridicalPerson;
 
 import com.company.Taxes.Tax;
 
-public class EcologicalTax implements Tax {
+public class EcologicalTax extends Tax {
     double Emissions;
     double CostperTon;
 

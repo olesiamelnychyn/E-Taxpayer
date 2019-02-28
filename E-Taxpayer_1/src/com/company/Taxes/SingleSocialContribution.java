@@ -1,6 +1,7 @@
+//this tax is paid by both Jurical anb Natural Entreprenuer person
 package com.company.Taxes;
 
-public class SingleSocialContribution implements Tax {
+public class SingleSocialContribution extends Tax {
     double SumofSalaries;
     double Persentage = 22;
 

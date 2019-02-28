@@ -2,7 +2,7 @@ package com.company.Taxes.TaxesJuridicalPerson;
 
 import com.company.Taxes.Tax;
 
-public class TouristTax implements Tax {
+public class TouristTax extends Tax {
     int NumberofTourists;
     double rate = 40;
 

@@ -4,7 +4,7 @@ import com.company.Taxes.Tax;
 
 import java.text.DecimalFormat;
 
-public class ValueAddedTax implements Tax {
+public class ValueAddedTax extends Tax {
     double Income;
     double Persentage = 20;
 

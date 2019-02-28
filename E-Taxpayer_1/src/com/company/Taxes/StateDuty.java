@@ -1,8 +1,7 @@
-package com.company.Taxes.TaxesJuridicalPerson;
+//this tax is paid by both Natural and Juridical person
+package com.company.Taxes;
 
-import com.company.Taxes.Tax;
-
-public class StateDuty implements Tax {
+public class StateDuty extends Tax {
     double Price;
     double Persentage = 1;
 

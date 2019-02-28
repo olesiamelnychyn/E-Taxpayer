@@ -1,7 +1,7 @@
 package com.company.Taxes.TaxesJuridicalPerson;
 import com.company.Taxes.Tax;
 
-public class RealEstateTax implements Tax {
+public class RealEstateTaxforJuridicalPerson extends Tax {
     double Square;
     double MinSalary = 4173;
     double Persentage =1;
@@ -11,7 +11,7 @@ public class RealEstateTax implements Tax {
         return Math.round(tax * 100.0) / 100.0;
     }
 
-    public RealEstateTax(double square){
+    public RealEstateTaxforJuridicalPerson(double square){
         Square=square;
     }
 }
