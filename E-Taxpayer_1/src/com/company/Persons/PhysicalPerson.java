@@ -26,7 +26,7 @@ public class PhysicalPerson implements NaturalPerson {
     //Land
     double LandSquare;
 
-    //Taxes
+    //Taxes (all taxes will be in a Collection soon)
     Tax landTax;
     Tax realtyTax;
     Tax luxuryTax;

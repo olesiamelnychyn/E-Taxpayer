@@ -15,7 +15,7 @@ import com.company.Taxes.TaxesNaturalPersonEntrepreneur.SingleTax;
         private String Location;
         private String IdentificationCode;
 
-        //Taxes
+        //Taxes (all taxes will be in a Collection soon)
         Tax singleTax;
         Tax singleSocialContribution;
 

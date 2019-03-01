@@ -3,7 +3,7 @@ package com.company.Taxes.TaxesNaturalPersonEntrepreneur;
 import com.company.Taxes.Tax;
 
 public class SingleTax extends Tax {
-    public double CirculationOfMoney;
+    double CirculationOfMoney;
     double MinSalary = 4173;
     double Persentage1 = 10;
     double Persentage2 = 20;

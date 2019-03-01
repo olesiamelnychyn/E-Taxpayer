@@ -1,4 +1,4 @@
-//this tax is paid by both Natural and Juridical person
+//this tax is paid by both Physical and Juridical person
 package com.company.Taxes;
 
 public class StateDuty extends Tax {
