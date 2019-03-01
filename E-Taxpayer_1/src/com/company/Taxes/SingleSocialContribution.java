@@ -2,15 +2,18 @@
 package com.company.Taxes;
 
 public class SingleSocialContribution extends Tax {
-    double SumofSalaries;
+    double Salaries; //Salaries has different meaning for Juridical and Natural person, but still the fotmula is the same:
+    // in case it is Juridical one Salaries means sum of salaries of the workers,
+    // in case it is Natural person it means minimal salary
     double Persentage = 22;
 
     public double calculateTax() {
-        double tax = SumofSalaries * (Persentage / 100);
+        double tax = Salaries * (Persentage / 100);
         return Math.round(tax * 100.0) / 100.0;
     }
 
-    public SingleSocialContribution(double sumofSalaries) {
-        SumofSalaries = sumofSalaries;
+    public SingleSocialContribution(double salaries) {
+        Salaries = salaries;
     }
+
 }

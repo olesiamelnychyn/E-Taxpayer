@@ -1,9 +1,9 @@
 //this tax is paid once a year
-package com.company.Taxes.TaxesNaturalPerson;
+package com.company.Taxes.TaxesPhysicalPerson;
 
 import com.company.Taxes.Tax;
 
-public class RealEstateTaxforNaturalPerson extends Tax {
+public class RealEstateTaxforPhysicalPerson extends Tax {
     double Square;
     String TypeofRealty;
     double MinSalary = 4173;
@@ -21,7 +21,7 @@ public class RealEstateTaxforNaturalPerson extends Tax {
         return Math.round(tax * 100.0) / 100.0;
     }
 
-    public RealEstateTaxforNaturalPerson(double square, String typeofRealty) {
+    public RealEstateTaxforPhysicalPerson( String typeofRealty, double square) {
         Square = square;
         TypeofRealty = typeofRealty;
     }

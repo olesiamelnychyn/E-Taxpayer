@@ -1,8 +1,8 @@
-package com.company.Taxes.TaxesNaturalPerson;
+package com.company.Taxes.TaxesPhysicalPerson;
 
 import com.company.Taxes.Tax;
 
-public class LandTaxforNaturalPerson extends Tax {
+public class LandTaxforPhysicalPerson extends Tax {
     double Square;
     double MinSalary = 4173;
     double Persentage = 0.1;
@@ -12,7 +12,7 @@ public class LandTaxforNaturalPerson extends Tax {
         return Math.round(tax * 100.0) / 100.0;
     }
 
-    public LandTaxforNaturalPerson(double square){
+    public LandTaxforPhysicalPerson(double square){
         Square = square;
     }
 }

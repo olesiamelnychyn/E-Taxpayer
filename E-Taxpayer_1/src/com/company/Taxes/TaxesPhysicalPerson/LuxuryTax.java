@@ -1,5 +1,5 @@
 //this tax is paid once a year
-package com.company.Taxes.TaxesNaturalPerson;
+package com.company.Taxes.TaxesPhysicalPerson;
 
 import com.company.Taxes.Tax;
 
