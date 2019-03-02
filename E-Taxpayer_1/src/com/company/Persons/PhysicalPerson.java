@@ -13,7 +13,7 @@ public class PhysicalPerson implements NaturalPerson {
     private String PassNumber;
     String Gender;
     private String Location;
-    private String IdentificationCode;
+    private int IdentificationCode;
 
     //Luxury
     double CarPrice;
@@ -30,6 +30,7 @@ public class PhysicalPerson implements NaturalPerson {
     Tax landTax;
     Tax realtyTax;
     Tax luxuryTax;
+    Tax stateDuty;
 
     //methods
     public void CreateTaxes() {
@@ -46,17 +47,28 @@ public class PhysicalPerson implements NaturalPerson {
         return Location;
     }
 
-    public String GetIdentificationCode() {
+    public int GetIdentificationCode() {
         return IdentificationCode;
     }
 
     public void CreateStateDuty(double SellPrice) {
-        Tax stateDuty = new StateDuty(SellPrice);
+        stateDuty = new StateDuty(SellPrice);
+    }
+
+    public void SetAdditionalInf(double carPrice, int carAge, String typeofRealty,
+                                 double sdquareofRealty, double landSquare) {
+        CarPrice = carPrice;
+        CarAge = carAge;
+        TypeofRealty = typeofRealty;
+        SquareofRealty = sdquareofRealty;
+        LandSquare = landSquare;
+        CreateTaxes();
+
     }
 
     //Constructor
-    public PhysicalPerson(String name, String sername, int age, int birthYear, String passNumber, String gender, String location,
-                          String identificationCode, double carPrice, int carAge, String typeofRealty, double sdquareofRealty, double landSquare) {
+    public PhysicalPerson(String name, String sername, int age, int birthYear, String passNumber,
+                          String gender, String location, int identificationCode) {
         Name = name;
         Sername = sername;
         Age = age;
@@ -65,10 +77,6 @@ public class PhysicalPerson implements NaturalPerson {
         Gender = gender;
         Location = location;
         IdentificationCode = identificationCode;
-        CarPrice = carPrice;
-        CarAge = carAge;
-        TypeofRealty = typeofRealty;
-        SquareofRealty = sdquareofRealty;
-        LandSquare = landSquare;
+
     }
 }

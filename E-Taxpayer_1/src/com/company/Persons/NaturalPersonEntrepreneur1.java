@@ -13,7 +13,7 @@ import com.company.Taxes.TaxesNaturalPersonEntrepreneur.SingleTax;
         private String PassNumber;
         String Gender;
         private String Location;
-        private String IdentificationCode;
+        private int IdentificationCode;
 
         //Taxes (all taxes will be in a Collection soon)
         Tax singleTax;
@@ -37,13 +37,18 @@ import com.company.Taxes.TaxesNaturalPersonEntrepreneur.SingleTax;
             return Location;
         }
 
-        public String GetIdentificationCode() {
+        public int GetIdentificationCode() {
             return IdentificationCode;
+        }
+
+        public void SetAdditionalInf(double circulationOfMoney) {
+            CirculationOfMoney = circulationOfMoney;
+            CreateTaxes();
         }
 
         //Constructor
         public NaturalPersonEntrepreneur1(String name, String sername, int years, int birthYear, String passNumber,
-                                          String gender, String location, String identificationCode, double circulationOfMoney) {
+                                          String gender, String location, int identificationCode) {
             Name = name;
             Sername = sername;
             Years = years;
@@ -52,7 +57,6 @@ import com.company.Taxes.TaxesNaturalPersonEntrepreneur.SingleTax;
             Gender = gender;
             Location = location;
             IdentificationCode = identificationCode;
-            CirculationOfMoney = circulationOfMoney;
         }
     }
 
