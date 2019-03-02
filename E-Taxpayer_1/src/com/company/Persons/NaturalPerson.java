@@ -5,8 +5,6 @@ public interface NaturalPerson {
 
     public void CreateTaxes();
 
-    public String GetPassNumber();
-
     public String GetLocation();
 
     public int GetIdentificationCode();
