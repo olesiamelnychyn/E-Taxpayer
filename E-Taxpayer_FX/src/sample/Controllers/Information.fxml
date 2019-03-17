@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #2E3348#2E3356 #2E3348#2E3356;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller_Information">
+   <children>
+      <Pane layoutX="8.0" layoutY="175.0" prefHeight="417.0" prefWidth="784.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="14.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="      «E-Taxpayer» is an application made for every person. It is adapted for each of taxpayers due to his/her functions and possibilities. «E-Taxpayer» is a very useful application, which helps you to regulate almost all your taxes just sitting at your computer. There is no more long queues and doubtful sums. It provides you a possibility to see all you taxes as a list, which is constructed especially for each natural person, natural person-entrepreneur and juridical person." wrappingWidth="714.2060546875">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Firstly, you have to register yourself in the application. And to see all the stuff, you have to add some additional information about your job. The main functions, which help you not to lost in your calculation, are: all payments are listed and you can also see if there is any over-/underpayment on every tax. Also there is a possibility to add a single, not periodic action, which cause taxpaying (like selling car or realty). Moreover, you can construct different lists of taxes by their types (for example: ones which have under-/ overpayment, ones which should be paid every month). Also there may be a list with your payments in date order and a total sum paid to the country." wrappingWidth="751.0244140625">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="71.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let us help you to put in order all your taxes!">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.4700239808153477" startY="0.4628297362110312">
+                     <stops>
+                        <Stop color="#2f9090" />
+                        <Stop color="#2f9090" offset="0.007462660688215446" />
+                        <Stop color="#902323" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+         </children></Pane>
+      <Text layoutX="148.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is E-Taxpayer?" wrappingWidth="521.2395324707031">
+         <font>
+            <Font size="49.0" />
+         </font>
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.5347721822541966" startY="0.5155875299760192">
+               <stops>
+                  <Stop color="#3f8060" />
+                  <Stop color="#2f9090" offset="0.007462660688215446" />
+                  <Stop color="#902323" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="BackButton" layoutX="5.0" layoutY="9.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
