@@ -61,7 +61,7 @@ public class Controller_SignUpNatural {
             if (((Male.isSelected() && Female.isSelected()) || (!Male.isSelected() && !Female.isSelected()))){
                 System.out.println("No");
             } else if (Name.getText().isEmpty() || Sername.getText().isEmpty() || Age.getText().isEmpty() || Birthyear.getText().isEmpty() || Country.getText().isEmpty() || PassNumber.getText().isEmpty()
-            || IdentificationCode.getText().isEmpty() || Login.getText().isEmpty() || PassNumber.getText().isEmpty()){
+            || IdentificationCode.getText().isEmpty() || Login.getText().isEmpty() || Password.getText().isEmpty()){
                 System.out.println("No");
             } else{
                 int age = Integer.valueOf(Age.getText());
@@ -69,7 +69,7 @@ public class Controller_SignUpNatural {
                 if(Male.isSelected())
                     gender="Male";
                 else gender="Female";
-                PhysicalPerson physicalPerson = new PhysicalPerson(Name.getText(), Sername.getStyle(), age,  Integer.valueOf(Birthyear.getText()), Country.getText(), PassNumber.getText(), gender, Integer.valueOf(IdentificationCode.getText()));
+                PhysicalPerson physicalPerson = new PhysicalPerson(Login.getText(), Password.getText(), Name.getText(), Sername.getStyle(), age,  Integer.valueOf(Birthyear.getText()), Country.getText(), PassNumber.getText(), gender, Integer.valueOf(IdentificationCode.getText()));
                 System.out.println("yes");
                 System.out.println(physicalPerson.GetIdentificationCode());
             }

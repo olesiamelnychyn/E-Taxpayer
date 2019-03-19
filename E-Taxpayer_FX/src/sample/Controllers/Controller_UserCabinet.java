@@ -1,10 +1,7 @@
 package sample.Controllers;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -26,19 +23,10 @@ public class Controller_UserCabinet {
     private URL location;
 
     @FXML
-    private Text ProfileText;
-
-    @FXML
     private Text t1;
 
     @FXML
-    private Text t2;
-
-    @FXML
-    private Text t3;
-
-    @FXML
-    private Text t4;
+    private Text ProfileText;
 
     @FXML
     private Text tax1;
@@ -90,23 +78,8 @@ public class Controller_UserCabinet {
     @FXML
     void initialize() throws IOException {
 
-        ArrayList<Text> TitleTax = new ArrayList<>();
-        TitleTax.add(t1);
-        TitleTax.add(t2);
-        TitleTax.add(t3);
-        TitleTax.add(t4);
-        ArrayList<Text> Tax = new ArrayList<>();
-        Tax.add(tax1);
-        Tax.add(tax2);
-        Tax.add(tax3);
-        Tax.add(tax4);
-
-        for (Text text : TitleTax){
-            text.setVisible(false);
-        }
-        for (Text text : Tax){
-            text.setVisible(false);
-        }
+        t1.setVisible(false);
+        tax4.setVisible(false);
 
         LogOutButton.setOnAction(event -> {
             LogOutButton.getScene().getWindow().hide();
@@ -124,92 +97,74 @@ public class Controller_UserCabinet {
             stage.setScene(new Scene(root));
             stage.show();
         });
-        PhysicalPerson ph =  null;
-
         BufferedReader br = null;
-        br = new BufferedReader(new FileReader("/Users/olesia/Desktop/FIIT STU/2 semester/OOP/Project 1/E-Taxpayer/E-Taxpayer_FX/src/sample/Controllers/users.txt"));
+        final int[] Number = new int[1];
+        PhysicalPerson finalPh =null;
+        br = new BufferedReader(new FileReader("/Users/olesia/Desktop/FIIT STU/2 semester/OOP/Project 1/E-Taxpayer/E-Taxpayer_FX/src/sample/Controllers/number.txt"));
         if(br!=null) {
-            String Type = br.readLine();
-            String name = br.readLine();
-            String sername = br.readLine();
-            int age = Integer.valueOf(br.readLine());
-            int birthyear = Integer.valueOf(br.readLine());
-            String passnumber = br.readLine();
-            String gender = br.readLine();
-            String location = br.readLine();
-            int identnumb = Integer.valueOf(br.readLine());
+            Users pp = new Users();
+            pp.CreatePhysical();
+            final String[] number = {br.readLine()};
+            Number[0] =Integer.valueOf(number[0]);
+            finalPh = pp.ph.get(Number[0]);
 
-            ph = new PhysicalPerson(name, sername, age, birthyear, passnumber, gender, location, identnumb);
+            PrintWriter pw = null;
+            try {
+                pw = new PrintWriter("/Users/olesia/Desktop/FIIT STU/2 semester/OOP/Project 1/E-Taxpayer/E-Taxpayer_FX/src/sample/Controllers/number.txt");
+            } catch (FileNotFoundException e1) {
+                e1.printStackTrace();
+            }
+            if(pw!=null){
+                pw.println();}
 
-            Hello.setText("Hello, " + name + " " + sername + "!");
-            ProfileText.setText("Name: " + name + "\n" +
-                    "Sername: " + sername + "\n" +
-                    "Age: " + age + "\n" +
-                    "Year of birth: " + birthyear + "\n" +
-                    "Passport number: " + passnumber + "\n" +
-                    "Gender: " + gender + "\n" +
-                    "Location: " + location + "\n" +
-                    "Identification number: " + identnumb + "\n");
+            Hello.setText("Hello, " + finalPh.Name + " " + finalPh.Sername+ "!");
+            ProfileText.setText("Name: " + finalPh.Name + "\n" +
+                    "Sername: " + finalPh.Sername + "\n" +
+                    "Age: " + finalPh.Age + "\n" +
+                    "Year of birth: " + finalPh.BirthYear + "\n" +
+                    "Passport number: " + finalPh.GetPassNumber() + "\n" +
+                    "Gender: " + finalPh.Gender + "\n" +
+                    "Location: " + finalPh.GetLocation()+ "\n" +
+                    "Identification number: " + finalPh.GetIdentificationCode() + "\n");
+            finalPh.CreateTaxes();
+            finalPh.landTax.NewMounth();
+            finalPh.realtyTax.NewMounth();
+            finalPh.luxuryTax.NewMounth();
+            tax1.setText(String.valueOf(finalPh.landTax.CurrentBalance));
+            tax2.setText(String.valueOf(finalPh.luxuryTax.CurrentBalance));
+            tax3.setText(String.valueOf(finalPh.realtyTax.CurrentBalance));
+            CarAge.setText(String.valueOf(finalPh.CarAge));
+            CarPrice.setText(String.valueOf(finalPh.CarPrice));
+            TypeOfRealty.setText(finalPh.TypeofRealty);
+            SquareOfRealty.setText(String.valueOf(finalPh.SquareofRealty));
+            LandSquare.setText(String.valueOf(finalPh.LandSquare));
 
-            PhysicalPerson finalPh = ph;
+            PhysicalPerson finalPh1 = finalPh;
             AddInfButton.setOnAction(event -> {
-                    finalPh.SetAdditionalInf(Integer.valueOf(CarPrice.getText()), Integer.valueOf(CarAge.getText()), TypeOfRealty.getText(), Integer.valueOf(SquareOfRealty.getText()), Integer.valueOf(LandSquare.getText()));
-                    finalPh.CreateTaxes();
-                finalPh.landTax.NewMounth();
-                finalPh.realtyTax.NewMounth();
-                finalPh.luxuryTax.NewMounth();
-                int i=0;
-                    if(!t1.isVisible()) {
-                        t1.setText("Land tax: ");
-                        t2.setText("Luxury tax: ");
-                        t3.setText("Realty tax: ");
+                if(finalPh1 !=null) {
+                    finalPh1.SetAdditionalInf(Double.valueOf(CarPrice.getText()), Integer.valueOf(CarAge.getText()), TypeOfRealty.getText(), Double.valueOf(SquareOfRealty.getText()), Double.valueOf(LandSquare.getText()));
+                    finalPh1.CreateTaxes();
+                    finalPh1.landTax.NewMounth();
+                    finalPh1.realtyTax.NewMounth();
+                    finalPh1.luxuryTax.NewMounth();
 
-                        tax1.setText(String.valueOf(finalPh.landTax.CurrentBalance));
-                        tax2.setText(String.valueOf(finalPh.luxuryTax.CurrentBalance));
-                        tax3.setText(String.valueOf(finalPh.realtyTax.CurrentBalance));
-                        i=1;
-                    }
-                    else{
-                        t2.setText("Land tax: ");
-                        t3.setText("Luxury tax: ");
-                        t4.setText("Realty tax: ");
+                        tax1.setText(String.valueOf(finalPh1.landTax.CurrentBalance));
+                        tax2.setText(String.valueOf(finalPh1.luxuryTax.CurrentBalance));
+                        tax3.setText(String.valueOf(finalPh1.realtyTax.CurrentBalance));
+                        Number[0] =pp.ChangePhysical(Integer.valueOf(number[0]), finalPh1);
+                        number[0]=String.valueOf(Number[0]);
 
-                        tax2.setText(String.valueOf(finalPh.landTax.CurrentBalance));
-                        tax3.setText(String.valueOf(finalPh.luxuryTax.CurrentBalance));
-                        tax4.setText(String.valueOf(finalPh.realtyTax.CurrentBalance));
-                    }
-                    int j=i;
-                for (Text text : TitleTax) {
-                    if (i <= 3) {
-                        text.setVisible(true);
-                        i++;
-                    }
                 }
-                for (Text text : Tax) {
-                    if (j <= 3) {
-                        text.setVisible(true);
-                        j++;
-                    }
-                }
-
-                AddInfPane.setDisable(true);
-
             });
 
             AddDutyButton.setOnAction(event -> {
-                finalPh.CreateStateDuty(Integer.valueOf(DutyPrice.getText()));
-                finalPh.stateDuty.NewMounth();
-                if(!t1.isVisible()) {
+                finalPh1.CreateStateDuty(Integer.valueOf(DutyPrice.getText()));
+                finalPh1.stateDuty.NewMounth();
                     t1.setVisible(true);
-                    tax1.setVisible(true);
-                    t1.setText("State Duty:");
-                    tax1.setText(String.valueOf(finalPh.stateDuty.CurrentBalance));
-                } else {
-                    t4.setVisible(true);
                     tax4.setVisible(true);
-                    t4.setText("State Duty:");
-                    tax4.setText(String.valueOf(finalPh.stateDuty.CurrentBalance));
-                }
+                    t1.setText("State Duty:");
+                    tax4.setText(String.valueOf(finalPh1.stateDuty.CurrentBalance));
+
             });
         }
 

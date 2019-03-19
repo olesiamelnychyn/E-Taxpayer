@@ -4,6 +4,8 @@ package sample.Persons;
 import sample.Taxes.*;
 import sample.Taxes.TaxesJuridicalPerson.*;
 public class JuridicalPerson {
+    public String login;
+    public String password;
     String Title;
     int BirthYear;
     private String Location;

@@ -6,6 +6,8 @@ import sample.Taxes.TaxesNaturalPersonEntrepreneur.SingleTax;
     public class NaturalPersonEntrepreneur1 implements NaturalPerson {
 
         //Common Information
+        public String login;
+        public String password;
         public String Name;
         String Sername;
         int Years;

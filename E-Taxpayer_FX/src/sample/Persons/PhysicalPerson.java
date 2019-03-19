@@ -6,25 +6,27 @@ import sample.Taxes.TaxesPhysicalPerson.*;
 public class PhysicalPerson implements NaturalPerson {
 
     //common information
+    public String login;
+    public String password;
     public String Name;
-    String Sername;
-    int Age;
-    int BirthYear;
+    public String Sername;
+    public int Age;
+    public int BirthYear;
     private String PassNumber;
-    String Gender;
+    public String Gender;
     private String Location;
     private int IdentificationCode;
 
     //Luxury
-    double CarPrice;
-    int CarAge;
+    public double CarPrice;
+    public int CarAge;
 
     //Realty
-    String TypeofRealty = null; // flat or house
-    double SquareofRealty;
+    public String TypeofRealty = null; // flat or house
+    public double SquareofRealty;
 
     //Land
-    double LandSquare;
+    public double LandSquare;
 
     //Taxes (all taxes will be in a Collection soon)
     public Tax landTax;
@@ -68,8 +70,10 @@ public class PhysicalPerson implements NaturalPerson {
     }
 
     //Constructor
-    public PhysicalPerson(String name, String sername, int age, int birthYear, String passNumber,
+    public PhysicalPerson(String login, String password,String name, String sername, int age, int birthYear, String passNumber,
                           String gender, String location, int identificationCode) {
+        this.login=login;
+        this.password = password;
         Name = name;
         Sername = sername;
         Age = age;

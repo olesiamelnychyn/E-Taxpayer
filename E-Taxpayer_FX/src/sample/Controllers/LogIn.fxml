@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -15,7 +18,7 @@
    <children>
       <Pane layoutX="13.0" layoutY="163.0" prefHeight="423.0" prefWidth="774.0" style="-fx-background-color: white;">
          <children>
-            <TextField fx:id="LoginText" layoutX="211.0" layoutY="88.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your login here... " style="-fx-background-color: linear-gradient(#2f9090, white);">
+            <TextField fx:id="LoginText" layoutX="212.0" layoutY="123.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your login here... " style="-fx-background-color: linear-gradient(#2f9090, white);">
                <cursor>
                   <Cursor fx:constant="TEXT" />
                </cursor>
@@ -23,7 +26,7 @@
                   <Font size="22.0" />
                </font>
             </TextField>
-            <PasswordField fx:id="PasswordText" layoutX="211.0" layoutY="188.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your password here..." style="-fx-background-color: linear-gradient(#2f9090, white) linear-gradient(white, #2f9090);">
+            <PasswordField fx:id="PasswordText" layoutX="212.0" layoutY="212.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your password here..." style="-fx-background-color: linear-gradient(#2f9090, white) linear-gradient(white, #2f9090);">
                <cursor>
                   <Cursor fx:constant="TEXT" />
                </cursor>
@@ -44,6 +47,15 @@
                   </LinearGradient>
                </textFill>
             </Button>
+            <ChoiceBox layoutX="279.0" layoutY="54.0" value="Natural person">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Natural person" />
+                     <String fx:value="Natural person-entrepreneur" />
+                     <String fx:value="Juridical person" />
+                  </FXCollections>
+               </items>
+            </ChoiceBox>
          </children>
       </Pane>
       <Text layoutX="174.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log into your account!">

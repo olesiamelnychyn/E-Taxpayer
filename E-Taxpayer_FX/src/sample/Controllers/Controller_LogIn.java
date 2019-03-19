@@ -1,8 +1,11 @@
 package sample.Controllers;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,6 +14,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.scene.control.ChoiceBox;
 
 
 
@@ -37,6 +41,8 @@ public class Controller_LogIn  {
     @FXML
     private Button BackButton;
 
+    @FXML
+    private ChoiceBox<?> type;
 
     @FXML
     void initialize() {
@@ -68,10 +74,31 @@ public class Controller_LogIn  {
                     PasswordText.setLayoutX(x2);
                     PasswordText.setLayoutY(y2);
                 }
-            } else
-                if(login.equals("login") && password.equals("12345")){
-                    System.out.println("OK");
-                    PresedToOpen(SignInButton, "Hello", "UserCabinet");
+            } else{
+                Users phuser = new Users();
+                try {
+                    phuser.CreatePhysical();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+                String result = phuser.CheckPhysical(login, password);
+               if(result!=null){
+                   System.out.println("OK "+result);
+
+                   PrintWriter pw = null;
+                   try {
+                       pw = new PrintWriter("/Users/olesia/Desktop/FIIT STU/2 semester/OOP/Project 1/E-Taxpayer/E-Taxpayer_FX/src/sample/Controllers/number.txt");
+                   } catch (FileNotFoundException e1) {
+                       e1.printStackTrace();
+                   }
+                   if(pw!=null){
+                   pw.println(result);
+                   }else System.out.println("!!!!NO!!!!!");
+                   pw.close();
+
+
+                   PresedToOpen(SignInButton, "Hello", "UserCabinet");
+               }
             }
         });
 
@@ -103,4 +130,7 @@ public class Controller_LogIn  {
         stage.show();
     }
 }
+
+
+
 
