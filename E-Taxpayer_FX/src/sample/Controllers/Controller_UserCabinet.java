@@ -151,7 +151,7 @@ public class Controller_UserCabinet {
                         tax1.setText(String.valueOf(finalPh1.landTax.CurrentBalance));
                         tax2.setText(String.valueOf(finalPh1.luxuryTax.CurrentBalance));
                         tax3.setText(String.valueOf(finalPh1.realtyTax.CurrentBalance));
-                        Number[0] =pp.ChangePhysical(Integer.valueOf(number[0]), finalPh1);
+                        Number[0] =pp.AddorChangePhysical(Integer.valueOf(number[0]), finalPh1);
                         number[0]=String.valueOf(Number[0]);
 
                 }
