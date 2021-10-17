@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #2E3348#2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller_TypeOfPerson">
+   <children>
+      <Pane layoutX="6.0" layoutY="100.0" prefHeight="200.0" prefWidth="388.0" style="-fx-background-color: white;">
+         <children>
+            <CheckBox fx:id="Natural" layoutX="24.0" layoutY="25.0" mnemonicParsing="false" text="Natural Person">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="Juridical" layoutX="218.0" layoutY="25.0" mnemonicParsing="false" text="Juridical Person">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="Entrepreneur" layoutX="26.0" layoutY="89.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="277.0" text="Natural Person-Entrepreneur">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <Button fx:id="NextButton" layoutX="276.0" layoutY="147.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="68.0" text="Next">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Text layoutX="12.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chose your type of person (only one):">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#2f9090" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="BackButton" layoutX="6.0" layoutY="1.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

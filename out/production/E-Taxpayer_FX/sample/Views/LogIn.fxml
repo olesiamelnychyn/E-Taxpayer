@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #2E3348 #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller_LogIn">
+   <children>
+      <Pane layoutX="13.0" layoutY="163.0" prefHeight="423.0" prefWidth="774.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="LoginText" layoutX="212.0" layoutY="123.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your login here... " style="-fx-background-color: linear-gradient(#2f9090, white);">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="PasswordText" layoutX="212.0" layoutY="212.0" prefHeight="59.0" prefWidth="352.0" promptText="Write your password here..." style="-fx-background-color: linear-gradient(#2f9090, white) linear-gradient(white, #2f9090);">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="SignInButton" contentDisplay="RIGHT" layoutX="314.0" layoutY="308.0" mnemonicParsing="false" style="-fx-background-color: #2E3348 #2E3348 #2E3348 #2E3348;" text="Sign In">
+               <font>
+                  <Font size="32.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#2f9090" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <ChoiceBox fx:id="type" layoutX="279.0" layoutY="54.0" value="Natural person">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Natural person" />
+                     <String fx:value="Natural person-entrepreneur" />
+                     <String fx:value="Juridical person" />
+                  </FXCollections>
+               </items>
+            </ChoiceBox>
+         </children>
+      </Pane>
+      <Text layoutX="174.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log into your account!">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#2f9090" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="InfoButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="58.0" text="i">
+         <font>
+            <Font name="Charter Roman" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="685.0" layoutY="14.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font name="Charter Roman" size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f486b04-b716-4c5c-bcf3-071bd5f2a28a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Animation/Shake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpEntrepreneur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+              <folding>
+                <element signature="docComment;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Name#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Surname#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Age#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Birthyear#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#PassNumber#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Location#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#IdentCode#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Password#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#Login#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#IncomeChoice#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#SignUpButton#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#BackButton#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#male#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;field#female#0;class#Controller_SignUpEntrepreneur#0" />
+                <element signature="docComment;method#initialize#0;class#Controller_SignUpEntrepreneur#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_Ent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="256" column="14" selection-start-line="256" selection-start-column="14" selection-end-line="256" selection-end-column="14" />
+              <folding>
+                <element signature="docComment;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#LogOutButton#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#ProfileText#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#SingleTax#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#SingleSocialContribution#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#CirculationofMoney#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#ConfirmButton#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#Pay#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#TypeofTax#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#Amount#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#Comment#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#ListTransactions#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;field#Details#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;method#initialize#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="method#update#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;method#GetNumber#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="method#GetNumber#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;method#Clear#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="method#Clear#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="method#SetBasicInf#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="docComment;method#ResaveinBase#0;class#Controller_UserCabinet_Ent#0" />
+                <element signature="method#ResaveinBase#0;class#Controller_UserCabinet_Ent#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Taxes/Tax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+              <folding>
+                <element signature="docComment;field#CurrentBalance#0;class#Tax#0" />
+                <element signature="docComment;method#calculateTax#0;class#Tax#0" />
+                <element signature="docComment;method#NewCalculate#0;class#Tax#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_PH.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3945">
+              <caret line="325" column="52" selection-start-line="325" selection-start-column="52" selection-end-line="325" selection-end-column="52" />
+              <folding>
+                <element signature="docComment;field#ProfileText#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#tax1#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#tax2#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#tax3#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#tax4#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#CarAge#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#CarPrice#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#TypeOfRealty#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#SquareOfRealty#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#LandSquare#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#AddInfButton#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#DutyPrice#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#AddDutyButton#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#TypeofTax1#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#Amount#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#Pay#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#Comment#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#LogOutButton#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#ListTransactions#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;field#Details#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;method#initialize#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;method#SetBasicInf#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;method#ResaveinBase#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="method#ResaveinBase#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="docComment;method#Clear#0;class#Controller_UserCabinet_PH#0" />
+                <element signature="method#Clear#0;class#Controller_UserCabinet_PH#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_JR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4290">
+              <caret line="306" column="21" selection-start-line="306" selection-start-column="21" selection-end-line="306" selection-end-column="21" />
+              <folding>
+                <element signature="docComment;class#Controller_UserCabinet_JR#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_LogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1905">
+              <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+              <folding>
+                <element signature="docComment;class#Controller_LogIn#0" />
+                <element signature="docComment;field#LoginText#0;class#Controller_LogIn#0" />
+                <element signature="docComment;field#PasswordText#0;class#Controller_LogIn#0" />
+                <element signature="docComment;field#SignInButton#0;class#Controller_LogIn#0" />
+                <element signature="docComment;field#InfoButton#0;class#Controller_LogIn#0" />
+                <element signature="docComment;field#BackButton#0;class#Controller_LogIn#0" />
+                <element signature="docComment;field#type#0;class#Controller_LogIn#0" />
+                <element signature="docComment;method#initialize#0;class#Controller_LogIn#0" />
+                <element signature="docComment;method#Print#0;class#Controller_LogIn#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Open.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="docComment;class#Open#0" />
+                <element signature="docComment;method#PressedToOpen#0;class#Open#0" />
+                <element signature="method#PressedToOpen#0;class#Open#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/User/personEnt.out">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/User/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+              <folding>
+                <element signature="docComment;class#Users#0" />
+                <element signature="docComment;field#ph#0;class#Users#0" />
+                <element signature="docComment;field#entr1#0;class#Users#0" />
+                <element signature="docComment;field#entr2#0;class#Users#0" />
+                <element signature="docComment;field#jr#0;class#Users#0" />
+                <element signature="docComment;method#CreatePhysical#0;class#Users#0" />
+                <element signature="method#CreatePhysical#0;class#Users#0" />
+                <element signature="docComment;method#CheckExistingPhy#0;class#Users#0" />
+                <element signature="docComment;method#CheckPhysical#0;class#Users#0" />
+                <element signature="method#CheckPhysical#0;class#Users#0" />
+                <element signature="docComment;method#AddorChangePhysical#0;class#Users#0" />
+                <element signature="method#AddorChangePhysical#0;class#Users#0" />
+                <element signature="docComment;method#CreateJuridical#0;class#Users#0" />
+                <element signature="method#CreateJuridical#0;class#Users#0" />
+                <element signature="docComment;method#CheckExistingJur#0;class#Users#0" />
+                <element signature="method#CheckExistingJur#0;class#Users#0" />
+                <element signature="docComment;method#CheckJuridical#0;class#Users#0" />
+                <element signature="method#CheckJuridical#0;class#Users#0" />
+                <element signature="docComment;method#AddorChangeJuridical#0;class#Users#0" />
+                <element signature="method#AddorChangeJuridical#0;class#Users#0" />
+                <element signature="docComment;method#CreateEntrepreneur#0;class#Users#0" />
+                <element signature="method#CreateEntrepreneur#0;class#Users#0" />
+                <element signature="docComment;method#CheckExistingEnt#0;class#Users#0" />
+                <element signature="method#CheckExistingEnt#0;class#Users#0" />
+                <element signature="docComment;method#CheckEntrepreneur#0;class#Users#0" />
+                <element signature="method#CheckEntrepreneur#0;class#Users#0" />
+                <element signature="docComment;method#AddorChangeEntrepreneur#0;class#Users#0" />
+                <element signature="method#AddorChangeEntrepreneur#0;class#Users#0" />
+                <element signature="docComment;method#CreateEntrepreneur2#0;class#Users#0" />
+                <element signature="method#CreateEntrepreneur2#0;class#Users#0" />
+                <element signature="docComment;method#CheckExistingEnt2#0;class#Users#0" />
+                <element signature="method#CheckExistingEnt2#0;class#Users#0" />
+                <element signature="docComment;method#CheckEntrepreneur2#0;class#Users#0" />
+                <element signature="method#CheckEntrepreneur2#0;class#Users#0" />
+                <element signature="docComment;method#AddorChangeEntrepreneur2#0;class#Users#0" />
+                <element signature="method#AddorChangeEntrepreneur2#0;class#Users#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/RentForUseOfMineralResources.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/TouristTax.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/ValueAddedTax.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesNaturalPersonEntrepreneur/SingleTax.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesPhysicalPerson/LuxuryTax.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesPhysicalPerson/LandTaxforPhysicalPerson.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/SingleSocialContribution.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/StateDuty.java" />
+        <option value="$PROJECT_DIR$/src/sample/Users/number.txt" />
+        <option value="$PROJECT_DIR$/personEnt.out" />
+        <option value="$PROJECT_DIR$/src/sample/Users/Users.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/MilitaryFee.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/Tax.java" />
+        <option value="$PROJECT_DIR$/src/sample/Views/Transaction.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/AdminPage.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/TransactionAdmin.java" />
+        <option value="$PROJECT_DIR$/src/sample/Views/TransactionAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/User/personEnt2.out" />
+        <option value="$PROJECT_DIR$/src/sample/Views/UserCabinetPH.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/UserCabinetJR.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/UserCabinetEnt.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/SignUpEntrepreneur.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Views/SignUpNatural.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Animation/Shake.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_Home.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_Information.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_Transaction.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_TypeOfPerson.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Open.java" />
+        <option value="$PROJECT_DIR$/src/sample/Persons/NaturalPerson.java" />
+        <option value="$PROJECT_DIR$/src/sample/Persons/NaturalPersonEntrepreneur1.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/EcologicalTax.java" />
+        <option value="$PROJECT_DIR$/src/sample/ExistingLogin.java" />
+        <option value="$PROJECT_DIR$/src/sample/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/sample/Persons/JuridicalPerson.java" />
+        <option value="$PROJECT_DIR$/src/sample/Persons/NaturalPersonEntrepreneur2.java" />
+        <option value="$PROJECT_DIR$/src/sample/Persons/PhysicalPerson.java" />
+        <option value="$PROJECT_DIR$/src/sample/Taxes/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpEntrepreneur.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpJuridical.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpNatural.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_PH.java" />
+        <option value="$PROJECT_DIR$/src/sample/User/personJR.out" />
+        <option value="$PROJECT_DIR$/src/sample/User/personPH.out" />
+        <option value="$PROJECT_DIR$/src/sample/User/personEnt.out" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_JR.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_Transaction_Admin.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_AdminPage.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_Ent.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller_LogIn.java" />
+        <option value="$PROJECT_DIR$/src/sample/User/Users.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1221" />
+    <option name="height" value="803" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Taxpayer_FX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Taxpayer_FX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Taxpayer_FX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Taxpayer_FX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Taxpayer_FX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Taxpayer_FX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557243017696" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample.Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/Documentation" />
+      <recent name="$PROJECT_DIR$/src/sample/Documentation/Javadoc" />
+      <recent name="$PROJECT_DIR$/src/sample" />
+      <recent name="$PROJECT_DIR$/src/sample/Users" />
+      <recent name="$PROJECT_DIR$/src/sample/Views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="E-Taxpayer_FX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f486b04-b716-4c5c-bcf3-071bd5f2a28a" name="Default Changelist" comment="" />
+      <created>1553010223331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553010223331</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding possibility to registrate juridicla person">
+      <created>1553018190293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553018190293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working on userpage of Juridical Person">
+      <created>1553190820767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553190820767</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finishing userpage of Juridical Person">
+      <created>1553422986916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553422986916</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Working on userpage of Natural person-entrepreneur">
+      <created>1553429337763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553429337763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Separating application logic from the user interface">
+      <created>1553616028794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553616028795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding serialization to PhysicalPerson">
+      <created>1554022839076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554022839076</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creating functionality of administrator">
+      <created>1554032132589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554032132589</updated>
+    </task>
+    <task id="LOCAL-00008" summary="NaturalPersonEntrepreneur2 :)">
+      <created>1554053201712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554053201712</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Improving registration process">
+      <created>1554194045593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554194045594</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding files with serialized objects + adding report.txt">
+      <created>1554194471363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554194471363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Solving small problems">
+      <created>1554319245173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554319245173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding users">
+      <created>1554319721052</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554319721052</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Check boxes">
+      <created>1554320693781</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554320693781</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Small problems">
+      <created>1554366122599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554366122599</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Small problems">
+      <created>1554541969731</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554541969731</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Small problems">
+      <created>1554542794887</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554542794888</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adding comments">
+      <created>1554814147955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554814147955</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactoring: class Open">
+      <created>1555147366248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555147366248</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Refactoring: adding methods">
+      <created>1555151336387</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555151336387</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Starting with Javadoc">
+      <created>1555427854200</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555427854200</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Javadoc: Juridical persons">
+      <created>1555435161852</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555435161852</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Javadoc: Natural person and Natural person-entrepreneur">
+      <created>1555436133695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555436133695</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Javadoc: Natural person-entrepreneur2">
+      <created>1555436851500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555436851500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Javadoc: Physical person">
+      <created>1555522090860</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555522090860</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Javadoc: Open and Shake">
+      <created>1555523172854</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1555523172854</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Javadoc">
+      <created>1555524506101</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555524506101</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Payment in userpages + History of transactions(with approving by administrator)">
+      <created>1556910305781</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556910305781</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Javadoc">
+      <created>1556998564446</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1556998564446</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Special cases">
+      <created>1557069666345</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557069666345</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Adding users">
+      <created>1557171182161</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557171182161</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Last changes1">
+      <created>1557241819647</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1557241819647</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Adding Documentation (src/sample/Documentation)">
+      <created>1557242395053</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557242395053</updated>
+    </task>
+    <task id="LOCAL-00033" summary="List of users (src/sample/Documentation)">
+      <created>1557243043756</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1557243043756</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Last changes2">
+      <created>1557649702157</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1557649702157</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1221" height="803" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21798134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32424676" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23488045" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39803094" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32630098" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" x="0" y="0" width="297" height="603" id="Documentation" order="8" side_tool="true" weight="0.32987398" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding serialization to PhysicalPerson" />
+    <MESSAGE value="Creating functionality of administrator" />
+    <MESSAGE value="NaturalPersonEntrepreneur2 :)" />
+    <MESSAGE value="Improving registration process" />
+    <MESSAGE value="Adding files with serialized objects + adding report.txt" />
+    <MESSAGE value="Solving small problems" />
+    <MESSAGE value="Check boxes" />
+    <MESSAGE value="Small problems" />
+    <MESSAGE value="Adding comments" />
+    <MESSAGE value="Refactoring: class Open" />
+    <MESSAGE value="Refactoring: adding methods" />
+    <MESSAGE value="Starting with Javadoc" />
+    <MESSAGE value="Javadoc: Juridical persons" />
+    <MESSAGE value="Javadoc: Natural person and Natural person-entrepreneur" />
+    <MESSAGE value="Javadoc: Natural person-entrepreneur2" />
+    <MESSAGE value="Javadoc: Physical person" />
+    <MESSAGE value="Javadoc: Open and Shake" />
+    <MESSAGE value="Payment in userpages + History of transactions(with approving by administrator)" />
+    <MESSAGE value="Javadoc" />
+    <MESSAGE value="Special cases" />
+    <MESSAGE value="Adding users" />
+    <MESSAGE value="Last changes1" />
+    <MESSAGE value="Adding Documentation (src/sample/Documentation)" />
+    <MESSAGE value="List of users (src/sample/Documentation)" />
+    <MESSAGE value="Last changes2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last changes2" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/MilitaryFee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/IncomeTaxofNaturalPersons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/RentForUseOfMineralResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/ValueAddedTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/TransactionAdmin.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/event/CompositeEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/Transaction.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/UserCabinetPH.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesPhysicalPerson/LuxuryTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/SignUpEntrepreneur.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/SignUpJuridical.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/SignUpNatural.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="21" column="122" lean-forward="true" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/AdminPage.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="65" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#Controller_Information#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_Information#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_Information#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesJuridicalPerson/EcologicalTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/UserCabinetEnt.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Persons/NaturalPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#NaturalPerson#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Persons/NaturalPersonEntrepreneur2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="docComment;class#NaturalPersonEntrepreneur2#0" />
+            <element signature="docComment;field#juridicalPerson#0;class#NaturalPersonEntrepreneur2#0" />
+            <element signature="docComment;method#NaturalPersonEntrepreneur2#0;class#NaturalPersonEntrepreneur2#0" />
+            <element signature="method#NaturalPersonEntrepreneur2#0;class#NaturalPersonEntrepreneur2#0" />
+            <element signature="docComment;method#CreateTaxes#0;class#NaturalPersonEntrepreneur2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Persons/PhysicalPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#PhysicalPerson#0" />
+            <element signature="docComment;field#transactions#0;class#PhysicalPerson#0" />
+            <element signature="docComment;method#PhysicalPerson#0;class#PhysicalPerson#0" />
+            <element signature="method#PhysicalPerson#0;class#PhysicalPerson#0" />
+            <element signature="docComment;method#CreateTaxes#0;class#PhysicalPerson#0" />
+            <element signature="method#CreateTaxes#0;class#PhysicalPerson#0" />
+            <element signature="docComment;method#CreateStateDuty#0;class#PhysicalPerson#0" />
+            <element signature="method#CreateStateDuty#0;class#PhysicalPerson#0" />
+            <element signature="docComment;method#SetAdditionalInf#0;class#PhysicalPerson#0" />
+            <element signature="method#SetAdditionalInf#0;class#PhysicalPerson#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#Controller_Home#0" />
+            <element signature="docComment;field#LogInButton#0;class#Controller_Home#0" />
+            <element signature="docComment;field#SignUpButton#0;class#Controller_Home#0" />
+            <element signature="docComment;field#InfButton#0;class#Controller_Home#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_Home#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Persons/JuridicalPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;class#JuridicalPerson#0" />
+            <element signature="docComment;field#OSREOUCode#0;class#JuridicalPerson#0" />
+            <element signature="docComment;field#transactions#0;class#JuridicalPerson#0" />
+            <element signature="docComment;method#JuridicalPerson#0;class#JuridicalPerson#0" />
+            <element signature="method#JuridicalPerson#0;class#JuridicalPerson#0" />
+            <element signature="docComment;method#CreateTaxes#0;class#JuridicalPerson#0" />
+            <element signature="method#CreateTaxes#0;class#JuridicalPerson#0" />
+            <element signature="docComment;method#CreateStateDuty#0;class#JuridicalPerson#0" />
+            <element signature="docComment;method#SetAdditionalInf#0;class#JuridicalPerson#0" />
+            <element signature="method#SetAdditionalInf#0;class#JuridicalPerson#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpNatural.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="169" column="73" selection-start-line="169" selection-start-column="73" selection-end-line="169" selection-end-column="73" />
+          <folding>
+            <element signature="docComment;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#SignUpButton#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Name#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Surname#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Age#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Birthyear#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Country#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#PassNumber#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#IdentificationCode#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Login#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Password#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Male#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;field#Female#0;class#Controller_SignUpNatural#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_SignUpNatural#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/UserCabinetJR.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="246" column="78" selection-start-line="246" selection-start-column="78" selection-end-line="246" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User/personPH.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User/personJR.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User/personEnt2.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpJuridical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="120" column="73" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="73" />
+          <folding>
+            <element signature="docComment;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#osreoucode#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#Location#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#login#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#password#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#Birthyear#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#SignUpButton#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#title#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_SignUpJuridical#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_SignUpJuridical#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Persons/NaturalPersonEntrepreneur1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="docComment;field#transactions#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="docComment;method#NaturalPersonEntrepreneur1#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="method#NaturalPersonEntrepreneur1#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="docComment;method#CreateTaxes#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="method#CreateTaxes#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="docComment;method#SetAdditionalInf#0;class#NaturalPersonEntrepreneur1#0" />
+            <element signature="method#SetAdditionalInf#0;class#NaturalPersonEntrepreneur1#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/SingleSocialContribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/TaxesNaturalPersonEntrepreneur/SingleTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Transaction#0" />
+            <element signature="docComment;method#Transaction#0;class#Transaction#0" />
+            <element signature="method#Transaction#0;class#Transaction#0" />
+            <element signature="docComment;method#SetDateofApprove#0;class#Transaction#0" />
+            <element signature="method#SetDateofApprove#0;class#Transaction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/StateDuty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/package-summary.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_Transaction_Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Controller_Transaction_Admin#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_Transaction_Admin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_AdminPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="432" column="29" selection-start-line="432" selection-start-column="29" selection-end-line="432" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#users#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#LogOutButton#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#CharacteristicsChoiceBox#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#SearchButton#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#SaveResults#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#ListView#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#MakeAReportButton#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#TransactionChoice#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#SearchButton1#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#ListViewTransaction#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;field#DetailsButton#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#Physical#0;class#Controller_AdminPage#0" />
+            <element signature="method#Physical#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#Juridical#0;class#Controller_AdminPage#0" />
+            <element signature="method#Juridical#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#Entrepreneur#0;class#Controller_AdminPage#0" />
+            <element signature="method#Entrepreneur#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#TaxesPhysical#0;class#Controller_AdminPage#0" />
+            <element signature="method#TaxesPhysical#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#TaxesJuridical#0;class#Controller_AdminPage#0" />
+            <element signature="method#TaxesJuridical#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#TaxesEntrepreneur#0;class#Controller_AdminPage#0" />
+            <element signature="method#TaxesEntrepreneur#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#PhysicalTr#0;class#Controller_AdminPage#0" />
+            <element signature="method#PhysicalTr#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#JuridicalTr#0;class#Controller_AdminPage#0" />
+            <element signature="method#JuridicalTr#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#EntrepreneurTr#0;class#Controller_AdminPage#0" />
+            <element signature="method#EntrepreneurTr#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#ApprovedTr#0;class#Controller_AdminPage#0" />
+            <element signature="method#ApprovedTr#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#NotApprovedTr#0;class#Controller_AdminPage#0" />
+            <element signature="method#NotApprovedTr#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#DetailsPH#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#DetailsJR#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#DetailsEnt1#0;class#Controller_AdminPage#0" />
+            <element signature="method#DetailsEnt1#0;class#Controller_AdminPage#0" />
+            <element signature="docComment;method#DetailsEnt2#0;class#Controller_AdminPage#0" />
+            <element signature="method#DetailsEnt2#0;class#Controller_AdminPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_TypeOfPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="docComment;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;field#Natural#0;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;field#Juridical#0;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;field#Entrepreneur#0;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;field#NextButton#0;class#Controller_TypeOfPerson#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_TypeOfPerson#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#Controller_Transaction#0" />
+            <element signature="docComment;field#Title#0;class#Controller_Transaction#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_Transaction#0" />
+            <element signature="method#initialize#0;class#Controller_Transaction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Exceptions/ExistingLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="docComment;class#ExistingLogin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/TransactionAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Animation/Shake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_SignUpEntrepreneur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Name#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Surname#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Age#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Birthyear#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#PassNumber#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Location#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#IdentCode#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Password#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#Login#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#IncomeChoice#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#SignUpButton#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#male#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;field#female#0;class#Controller_SignUpEntrepreneur#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_SignUpEntrepreneur#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Taxes/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;field#CurrentBalance#0;class#Tax#0" />
+            <element signature="docComment;method#calculateTax#0;class#Tax#0" />
+            <element signature="docComment;method#NewCalculate#0;class#Tax#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_PH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3945">
+          <caret line="325" column="52" selection-start-line="325" selection-start-column="52" selection-end-line="325" selection-end-column="52" />
+          <folding>
+            <element signature="docComment;field#ProfileText#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#tax1#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#tax2#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#tax3#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#tax4#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#CarAge#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#CarPrice#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#TypeOfRealty#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#SquareOfRealty#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#LandSquare#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#AddInfButton#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#DutyPrice#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#AddDutyButton#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#TypeofTax1#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#Amount#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#Pay#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#Comment#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#LogOutButton#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#ListTransactions#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;field#Details#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;method#SetBasicInf#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;method#ResaveinBase#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="method#ResaveinBase#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="docComment;method#Clear#0;class#Controller_UserCabinet_PH#0" />
+            <element signature="method#Clear#0;class#Controller_UserCabinet_PH#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_JR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="306" column="21" selection-start-line="306" selection-start-column="21" selection-end-line="306" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;class#Controller_UserCabinet_JR#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;class#Controller_LogIn#0" />
+            <element signature="docComment;field#LoginText#0;class#Controller_LogIn#0" />
+            <element signature="docComment;field#PasswordText#0;class#Controller_LogIn#0" />
+            <element signature="docComment;field#SignInButton#0;class#Controller_LogIn#0" />
+            <element signature="docComment;field#InfoButton#0;class#Controller_LogIn#0" />
+            <element signature="docComment;field#BackButton#0;class#Controller_LogIn#0" />
+            <element signature="docComment;field#type#0;class#Controller_LogIn#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_LogIn#0" />
+            <element signature="docComment;method#Print#0;class#Controller_LogIn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Open.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#Open#0" />
+            <element signature="docComment;method#PressedToOpen#0;class#Open#0" />
+            <element signature="method#PressedToOpen#0;class#Open#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User/personEnt.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;class#Users#0" />
+            <element signature="docComment;field#ph#0;class#Users#0" />
+            <element signature="docComment;field#entr1#0;class#Users#0" />
+            <element signature="docComment;field#entr2#0;class#Users#0" />
+            <element signature="docComment;field#jr#0;class#Users#0" />
+            <element signature="docComment;method#CreatePhysical#0;class#Users#0" />
+            <element signature="method#CreatePhysical#0;class#Users#0" />
+            <element signature="docComment;method#CheckExistingPhy#0;class#Users#0" />
+            <element signature="docComment;method#CheckPhysical#0;class#Users#0" />
+            <element signature="method#CheckPhysical#0;class#Users#0" />
+            <element signature="docComment;method#AddorChangePhysical#0;class#Users#0" />
+            <element signature="method#AddorChangePhysical#0;class#Users#0" />
+            <element signature="docComment;method#CreateJuridical#0;class#Users#0" />
+            <element signature="method#CreateJuridical#0;class#Users#0" />
+            <element signature="docComment;method#CheckExistingJur#0;class#Users#0" />
+            <element signature="method#CheckExistingJur#0;class#Users#0" />
+            <element signature="docComment;method#CheckJuridical#0;class#Users#0" />
+            <element signature="method#CheckJuridical#0;class#Users#0" />
+            <element signature="docComment;method#AddorChangeJuridical#0;class#Users#0" />
+            <element signature="method#AddorChangeJuridical#0;class#Users#0" />
+            <element signature="docComment;method#CreateEntrepreneur#0;class#Users#0" />
+            <element signature="method#CreateEntrepreneur#0;class#Users#0" />
+            <element signature="docComment;method#CheckExistingEnt#0;class#Users#0" />
+            <element signature="method#CheckExistingEnt#0;class#Users#0" />
+            <element signature="docComment;method#CheckEntrepreneur#0;class#Users#0" />
+            <element signature="method#CheckEntrepreneur#0;class#Users#0" />
+            <element signature="docComment;method#AddorChangeEntrepreneur#0;class#Users#0" />
+            <element signature="method#AddorChangeEntrepreneur#0;class#Users#0" />
+            <element signature="docComment;method#CreateEntrepreneur2#0;class#Users#0" />
+            <element signature="method#CreateEntrepreneur2#0;class#Users#0" />
+            <element signature="docComment;method#CheckExistingEnt2#0;class#Users#0" />
+            <element signature="method#CheckExistingEnt2#0;class#Users#0" />
+            <element signature="docComment;method#CheckEntrepreneur2#0;class#Users#0" />
+            <element signature="method#CheckEntrepreneur2#0;class#Users#0" />
+            <element signature="docComment;method#AddorChangeEntrepreneur2#0;class#Users#0" />
+            <element signature="method#AddorChangeEntrepreneur2#0;class#Users#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller_UserCabinet_Ent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="256" column="14" selection-start-line="256" selection-start-column="14" selection-end-line="256" selection-end-column="14" />
+          <folding>
+            <element signature="docComment;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#LogOutButton#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#ProfileText#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#SingleTax#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#SingleSocialContribution#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#CirculationofMoney#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#ConfirmButton#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#Pay#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#TypeofTax#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#Amount#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#Comment#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#ListTransactions#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;field#Details#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;method#initialize#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="method#update#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;method#GetNumber#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="method#GetNumber#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;method#Clear#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="method#Clear#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="method#SetBasicInf#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="docComment;method#ResaveinBase#0;class#Controller_UserCabinet_Ent#0" />
+            <element signature="method#ResaveinBase#0;class#Controller_UserCabinet_Ent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>E-Taxpayer_FX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
